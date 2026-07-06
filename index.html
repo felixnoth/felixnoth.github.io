@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Felix Noth</title>
+  <meta name="description" content="Felix Noth — Professor of Banking and Financial Systems (IWH Halle & OVGU Magdeburg). Research on financial stability and financial intermediation.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,600;1,6..72,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="topnav">
+    <div class="wrap nav-inner">
+      <a href="#top" class="brand">Felix Noth</a>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#bio">Bio</a>
+        <a href="#working-papers">Working Papers</a>
+        <a href="#publications">Publications</a>
+        <a href="#other">Other</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap" id="top">
+
+    <!-- ABOUT / HERO -->
+    <section id="about" class="hero">
+      <div class="hero-photo">
+        <!-- Drop a square-ish photo named profile.jpg into assets/ to show it here -->
+        <img src="assets/profile.jpg" alt="Felix Noth"
+             onerror="this.style.display='none';this.parentNode.classList.add('noimg')">
+      </div>
+      <div class="hero-text">
+        <h1>Felix Noth</h1>
+        <p class="tagline">Professor of Banking and Financial Systems</p>
+        <p class="affil">Halle Institute for Economic Research (IWH) &middot; Otto-von-Guericke University Magdeburg</p>
+        <p class="lede">
+          I am a Professor of Banking and Financial Systems at the
+          <a href="https://www.iwh-halle.de/en/about-the-iwh/team/detail/felix-noth/" target="_blank" rel="noopener">Halle Institute for Economic Research (IWH)</a>
+          and
+          <a href="https://www.cepa.ovgu.de/Researchers/Jun__Prof_+Dr_+Felix+Noth-p-142.html" target="_blank" rel="noopener">Otto-von-Guericke University in Magdeburg</a>.
+          I studied Economics at Ludwig-Maximilians University in Munich and did my Ph.D. in Finance at Goethe University, Frankfurt.
+        </p>
+        <p class="lede">
+          My research concerns topics related to financial systems' stability and financial intermediation.
+          This website gives an overview of my research.
+        </p>
+        <div class="actions">
+          <a class="btn" href="https://www.dropbox.com/scl/fi/g5ludsj6vzv5fqw09iqmr/cv-fnh.pdf?rlkey=zv73f804x2zjg2ag50hgtm96l&st=l82wksvy&dl=0" target="_blank" rel="noopener">Curriculum Vitae</a>
+          <a class="btn ghost" href="https://www.iwh-halle.de/en/about-the-iwh/team/detail/felix-noth/" target="_blank" rel="noopener">IWH Profile</a>
+        </div>
+        <p class="contact">felix<span aria-hidden="true">[dot]</span>noth<span aria-hidden="true">[at]</span>iwh-halle<span aria-hidden="true">[dot]</span>de</p>
+      </div>
+    </section>
+
+    <!-- BIO -->
+    <section id="bio">
+      <h2>Bio</h2>
+      <div class="bio-grid">
+        <div>
+          <h3>Employment</h3>
+          <ul class="timeline">
+            <li><span class="years">2020&ndash;today</span> Professor for Banking and Financial Systems, Otto-von-Guericke University, Magdeburg</li>
+            <li><span class="years">2014&ndash;today</span> Head of the Research Group Financial System Adaptability and Resilience (formerly: Real and Financial Innovation), Halle Institute for Economic Research</li>
+            <li><span class="years">2020&ndash;today</span> Deputy Head of the Financial Markets Department, Halle Institute for Economic Research</li>
+            <li><span class="years">2018&ndash;2020</span> Acting Deputy Head of the Financial Markets Department, Halle Institute for Economic Research</li>
+            <li><span class="years">2016</span> Acting Head of the Financial Markets Department, Halle Institute for Economic Research</li>
+            <li><span class="years">2014&ndash;2020</span> Junior Professor for Banking and Financial Systems, Otto-von-Guericke University, Magdeburg</li>
+            <li><span class="years">2011&ndash;2014</span> Postdoc, Chair for International Banking and Financial Systems, Goethe University, Frankfurt</li>
+            <li><span class="years">2007&ndash;2011</span> Doctoral Student, Chair for International Banking and Financial Systems, Goethe University, Frankfurt</li>
+          </ul>
+        </div>
+        <div>
+          <h3>Education</h3>
+          <ul class="timeline">
+            <li><span class="years">2007&ndash;2011</span> Goethe University, Frankfurt &mdash; Ph.D. in Finance</li>
+            <li><span class="years">2003&ndash;2007</span> Ludwig-Maximilians University, Munich &mdash; Diploma in Economics</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- WORKING PAPERS -->
+    <section id="working-papers">
+      <h2>Working Papers</h2>
+      <div id="working-papers-list" class="pub-list"></div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications">
+      <h2>Publications</h2>
+      <div id="publications-list" class="pub-list"></div>
+    </section>
+
+    <!-- OTHER PUBLICATIONS -->
+    <section id="other">
+      <h2>Other Publications</h2>
+      <div id="other-list" class="pub-list"></div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>&copy; <span id="year"></span> Felix Noth &middot;
+        <a href="https://www.iwh-halle.de/en/about-the-iwh/team/detail/felix-noth/" target="_blank" rel="noopener">IWH</a> &middot;
+        <a href="https://www.cepa.ovgu.de/Researchers/Jun__Prof_+Dr_+Felix+Noth-p-142.html" target="_blank" rel="noopener">OVGU</a>
+      </p>
+    </div>
+  </footer>
+
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+  <script src="bib.js"></script>
+</body>
+</html>
