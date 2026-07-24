@@ -112,6 +112,7 @@ function renderWorkingPapers(entries, el) {
     <article class="pub">
       <p class="cite">${fmtAuthors(e.author)} (${e.year}). ${titleHtml(e)}. ${e.journal ? deLatex(e.journal) : ""}
       ${e.note ? `<span class="status">${deLatex(e.note)}</span>` : ""}</p>
+      ${mediaHtml(e.media)}
       ${e.abstract ? `<details><summary>Abstract</summary><p class="abstract">${deLatex(e.abstract)}</p></details>` : ""}
     </article>`).join("");
 }
